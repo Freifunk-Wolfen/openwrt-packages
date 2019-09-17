@@ -1,0 +1,22 @@
+config 'community' 'profile'
+	option 'name' 'Wolfen'
+	option 'homepage' 'https://freifunk-wolfen.github.io/wolfen.freifunk.net/'
+	option 'ssid' 'wolfen.freifunk.net'
+	option 'mesh_network' '10.13.120.0/21'
+	option 'latitude' '51.6859'
+	option 'longitude' '12.2468'
+  option 'suffix' 'in.wolfen-nord.de'
+
+config 'defaults' 'wifi_device'
+	option 'channel' '5'
+	option 'country' 'DE'
+
+config 'defaults' 'wifi_device_5'
+  option 'channel' '136'
+	option 'country' 'DE'
+
+config 'defaults' 'interface'
+	option 'netmask' '255.255.255.240'
+
+config 'defaults' 'olsrd'
+	option 'LinkQualityAlgorithm' 'etx_ffeth'
